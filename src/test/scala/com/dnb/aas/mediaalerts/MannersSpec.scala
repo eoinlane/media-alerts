@@ -12,7 +12,7 @@ class MannersSpec
     with DataFrameComparer {
 
   import spark.implicits._
-
+// a happy dataframe
   describe(".happyData") {
 
     it("appends a happy column to a DataFrame") {
